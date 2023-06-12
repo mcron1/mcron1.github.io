@@ -13,7 +13,6 @@ export class SkillsComponent implements OnInit {
   constructor(private profileService:ProfileService) { }
 
     ngOnInit() {
-      this.skills =  this.profileService.skills()
     }
 
 }

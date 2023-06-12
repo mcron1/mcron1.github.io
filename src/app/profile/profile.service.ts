@@ -134,41 +134,6 @@ Migration Citrix (2300 utilisateurs) et mises en place de moyens matériels et a
       imgUrl: 'assets/images/proj gf.png',
       tech: '.NET, ANGULAR, SQL, TRELLO'
     },
-  ]
-
-  // Informations du menu : COMPETENCES TECHNIQUES
-
-  skillsData: any = [
-    {
-      'id': '1',
-      'skill': 'ANGULAR 2+',
-      'progress': '40%'
-    },
-    {
-      'id': '2',
-      'skill': 'JAVASCRIPT',
-      'progress': '30%'
-    },
-    {
-      'id': '3',
-      'skill': 'C#, .NET',
-      'progress': '35%'
-    },
-    {
-      'id': '4',
-      'skill': 'SQL, SQLITE, DB2',
-      'progress': '60%'
-    },
-    {
-      'id': '5',
-      'skill': 'FLUTTER, XAMARIN FORMS',
-      'progress': '65%'
-    },
-    {
-      'id': '6',
-      'skill': 'MOCKOON, POSTMAN',
-      'progress': '20%'
-    }
   ];
 
   // Informations du menu : SCOLARITE
@@ -206,10 +171,6 @@ Completed my Secondary school with 84%.`
     }
   ];
 
-  skills(): Observable<any> {
-    // return this.http.get(this.baseUrl + 'skills');
-    return this.skillsData;
-  }
   getProjects(): Observable<any> {
     // return this.http.get(this.baseUrl + 'skills');
     return this.projects;
