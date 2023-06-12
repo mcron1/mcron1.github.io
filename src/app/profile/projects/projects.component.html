@@ -1,0 +1,21 @@
+<div class="section" id="projects">
+  <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Projets</div>
+      <div class="row">
+          <ng-container *ngFor="let project of projects">
+              <div class="col-6" data-animate-effect="fadeInLeft">
+                  <div class="blog-entry">
+                      <div class="card">
+                          <img class="card-img-top" src={{project.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                              <h4 class="card-title">{{project.title}}</h4>
+                              <h5 class="card-text"><b>Technologies :</b> {{project.tech}} </h5>
+                              <h5 class="card-text"><p>{{project.desc}}</p></h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </ng-container>
+      </div>
+  </div>
+</div>
