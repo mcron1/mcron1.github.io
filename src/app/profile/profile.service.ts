@@ -82,6 +82,18 @@ Migration Citrix (2300 utilisateurs) et mises en place de moyens matériels et a
     img: 'assets/images/orys cert.png',
     url: 'https://www.orsys.fr/formation-hotline-optimiser-traitement-des-incidents.html'
   },
+  {
+    id:4,
+    title: 'Créer une application boutique en ligne avec .Net Core et Angular',
+    img: 'assets/images/udemy cert.png',
+    url: 'https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-net-core-and-angular/'
+  },
+  {
+    id:5,
+    title: 'Mainframe : Cours COBOL complet',
+    img: 'assets/images/udemy cert 1.png',
+    url: 'https://www.udemy.com/course/mainframe-the-complete-cobol-course-from-beginner-to-expert/'
+  },
 ]
 
 // Liste des projet du menu : PROJETS
